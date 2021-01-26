@@ -120,7 +120,7 @@ class App extends Component {
                 <Paragraph>Try waking up at</Paragraph>
               </Row>
               <Row gutter={[16, 16]}>
-                <QueueAnim delay={300} className="queue-simple">
+                <QueueAnim delay={500} className="queue-simple">
                   {wakeUpTime(sleepTime)}
                 </QueueAnim>
               </Row>
