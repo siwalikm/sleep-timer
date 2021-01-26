@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  margin: 0 auto;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.wake-container .ant-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.wake-options {
+  border: 1px solid #6944f8;
+  border-radius: 4px;
+  margin: 6px;
+  padding: 4px 40px;
+}
+
+.wake-options:nth-child(1),
+.wake-options:nth-child(2) {
+  border-color: #d9363e;
+  color: #d9363e;
+}
+
+.wake-options:nth-child(3),
+.wake-options:nth-child(4) {
+  border-color: #faad14;
+  color: #faad14;
+}
+
+.wake-options:nth-child(5),
+.wake-options:nth-child(6) {
+  border-color: #7fff00;
+  color: #7fff00;
+}
